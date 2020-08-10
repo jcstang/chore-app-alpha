@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faHome, faList, faUser } from '@fortawesome/free-solid-svg-icons'
 
 export default function Layout({
   children,
@@ -31,16 +33,18 @@ export default function Layout({
 
       {children}
 
-      <footer className={styles.footer}>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by{' '}
-            <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-          </a>
-        </footer>
+      <footer className={styles.card}>
+        <div className="container">
+          <div className="row">
+            <div className="col text-center"><FontAwesomeIcon icon={faList} size="3x" /></div>
+            <div className="col text-center"><FontAwesomeIcon icon={faHome} size="6x" /></div>
+            <div className="col text-center"><FontAwesomeIcon icon={faUser} size="3x" /></div>
+          </div>
+        </div>
+      </footer>
+      <style jsx>{`
+        
+        `}</style>
     </div>
   )
 }
