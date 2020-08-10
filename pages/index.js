@@ -1,5 +1,7 @@
 import Layout from '../components/layout';
 import styles from '../styles/Home.module.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faHome, faList, faUser } from '@fortawesome/free-solid-svg-icons'
 
 export default function Home() {
   return (
@@ -18,6 +20,7 @@ export default function Home() {
 
           <div className={styles.grid}>
             <a href="https://nextjs.org/docs" className={styles.card}>
+              <FontAwesomeIcon icon={faUser} size="2x" />
               <h3>Documentation &rarr;</h3>
               <p>Find in-depth information about Next.js features and API.</p>
             </a>
