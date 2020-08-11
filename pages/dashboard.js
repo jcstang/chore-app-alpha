@@ -6,19 +6,19 @@ export default function Dashboard() {
     
                 <a href="index.html" class="logo text-center logo-light">
                     <span class="logo-lg">
-                        <img src="assets/images/logo.png" alt="" height="16">
+                        <img src="assets/images/logo.png" alt="" height="16"/>
                     </span>
                     <span class="logo-sm">
-                        <img src="assets/images/logo_sm.png" alt="" height="16">
+                        <img src="assets/images/logo_sm.png" alt="" height="16"/>
                     </span>
                 </a>
 
                 <a href="index.html" class="logo text-center logo-dark">
                     <span class="logo-lg">
-                        <img src="assets/images/logo-dark.png" alt="" height="16">
+                        <img src="assets/images/logo-dark.png" alt="" height="16"/>
                     </span>
                     <span class="logo-sm">
-                        <img src="assets/images/logo_sm_dark.png" alt="" height="16">
+                        <img src="assets/images/logo_sm_dark.png" alt="" height="16"/>
                     </span>
                 </a>
     
@@ -592,7 +592,6 @@ export default function Dashboard() {
             
                     </ul>
 
-                    <!-- Help Box -->
                     <div class="help-box text-white text-center">
                         <a href="javascript: void(0);" class="float-right close-btn text-white">
                             <i class="mdi mdi-close"></i>
@@ -602,24 +601,15 @@ export default function Dashboard() {
                         <p class="mb-3">Upgrade to plan to get access to unlimited reports</p>
                         <a href="javascript: void(0);" class="btn btn-outline-light btn-sm">Upgrade</a>
                     </div>
-                    <!-- end Help Box -->
-                    <!-- End Sidebar -->
 
                     <div class="clearfix"></div>
 
                 </div>
-                <!-- Sidebar -left -->
 
             </div>
-            <!-- Left Sidebar End -->
-
-            <!-- ============================================================== -->
-            <!-- Start Page Content here -->
-            <!-- ============================================================== -->
 
             <div class="content-page">
                 <div class="content">
-                    <!-- Topbar Start -->
                     <div class="navbar-custom">
                         <ul class="list-unstyled topbar-right-menu float-right mb-0">
                             <li class="dropdown notification-list d-lg-none">
@@ -628,35 +618,31 @@ export default function Dashboard() {
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-animated dropdown-lg p-0">
                                     <form class="p-3">
-                                        <input type="text" class="form-control" placeholder="Search ..." aria-label="Recipient's username">
+                                        <input type="text" class="form-control" placeholder="Search ..." aria-label="Recipient's username"/>
                                     </form>
                                 </div>
                             </li>
                             <li class="dropdown notification-list topbar-dropdown">
                                 <a class="nav-link dropdown-toggle arrow-none" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                                    <img src="assets/images/flags/us.jpg" alt="user-image" class="mr-0 mr-sm-1" height="12"> 
+                                    <img src="assets/images/flags/us.jpg" alt="user-image" class="mr-0 mr-sm-1" height="12"/> 
                                     <span class="align-middle d-none d-sm-inline-block">English</span> <i class="mdi mdi-chevron-down d-none d-sm-inline-block align-middle"></i>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated topbar-dropdown-menu">
 
-                                    <!-- item-->
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <img src="assets/images/flags/germany.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">German</span>
+                                        <img src="assets/images/flags/germany.jpg" alt="user-image" class="mr-1" height="12"/> <span class="align-middle">German</span>
                                     </a>
 
-                                    <!-- item-->
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <img src="assets/images/flags/italy.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Italian</span>
+                                        <img src="assets/images/flags/italy.jpg" alt="user-image" class="mr-1" height="12"/> <span class="align-middle">Italian</span>
                                     </a>
                 
-                                    <!-- item-->
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <img src="assets/images/flags/spain.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Spanish</span>
+                                        <img src="assets/images/flags/spain.jpg" alt="user-image" class="mr-1" height="12"/> <span class="align-middle">Spanish</span>
                                     </a>
 
-                                    <!-- item-->
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <img src="assets/images/flags/russia.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Russian</span>
+                                        <img src="assets/images/flags/russia.jpg" alt="user-image" class="mr-1" height="12"/> <span class="align-middle">Russian</span>
                                     </a>
 
                                 </div>
@@ -669,7 +655,6 @@ export default function Dashboard() {
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-lg">
 
-                                    <!-- item-->
                                     <div class="dropdown-item noti-title">
                                         <h5 class="m-0">
                                             <span class="float-right">
@@ -754,19 +739,19 @@ export default function Dashboard() {
                                         <div class="row no-gutters">
                                             <div class="col">
                                                 <a class="dropdown-icon-item" href="#">
-                                                    <img src="assets/images/brands/slack.png" alt="slack">
+                                                    <img src="assets/images/brands/slack.png" alt="slack"/>
                                                     <span>Slack</span>
                                                 </a>
                                             </div>
                                             <div class="col">
                                                 <a class="dropdown-icon-item" href="#">
-                                                    <img src="assets/images/brands/github.png" alt="Github">
+                                                    <img src="assets/images/brands/github.png" alt="Github"/>
                                                     <span>GitHub</span>
                                                 </a>
                                             </div>
                                             <div class="col">
                                                 <a class="dropdown-icon-item" href="#">
-                                                    <img src="assets/images/brands/dribbble.png" alt="dribbble">
+                                                    <img src="assets/images/brands/dribbble.png" alt="dribbble"/>
                                                     <span>Dribbble</span>
                                                 </a>
                                             </div>
@@ -775,19 +760,19 @@ export default function Dashboard() {
                                         <div class="row no-gutters">
                                             <div class="col">
                                                 <a class="dropdown-icon-item" href="#">
-                                                    <img src="assets/images/brands/bitbucket.png" alt="bitbucket">
+                                                    <img src="assets/images/brands/bitbucket.png" alt="bitbucket"/>
                                                     <span>Bitbucket</span>
                                                 </a>
                                             </div>
                                             <div class="col">
                                                 <a class="dropdown-icon-item" href="#">
-                                                    <img src="assets/images/brands/dropbox.png" alt="dropbox">
+                                                    <img src="assets/images/brands/dropbox.png" alt="dropbox"/>
                                                     <span>Dropbox</span>
                                                 </a>
                                             </div>
                                             <div class="col">
                                                 <a class="dropdown-icon-item" href="#">
-                                                    <img src="assets/images/brands/g-suite.png" alt="G Suite">
+                                                    <img src="assets/images/brands/g-suite.png" alt="G Suite"/>
                                                     <span>G Suite</span>
                                                 </a>
                                             </div>
@@ -808,7 +793,7 @@ export default function Dashboard() {
                                 <a class="nav-link dropdown-toggle nav-user arrow-none mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false"
                                     aria-expanded="false">
                                     <span class="account-user-avatar"> 
-                                        <img src="assets/images/users/avatar-1.jpg" alt="user-image" class="rounded-circle">
+                                        <img src="assets/images/users/avatar-1.jpg" alt="user-image" class="rounded-circle"/>
                                     </span>
                                     <span>
                                         <span class="account-user-name">Dominic Keller</span>
@@ -891,7 +876,7 @@ export default function Dashboard() {
                                 <div class="notification-list">
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                                         <div class="media">
-                                            <img class="d-flex mr-2 rounded-circle" src="assets/images/users/avatar-2.jpg" alt="Generic placeholder image" height="32">
+                                            <img class="d-flex mr-2 rounded-circle" src="assets/images/users/avatar-2.jpg" alt="Generic placeholder image" height="32"/>
                                             <div class="media-body">
                                                 <h5 class="m-0 font-14">Erwin Brown</h5>
                                                 <span class="font-12 mb-0">UI Designer</span>
@@ -901,7 +886,7 @@ export default function Dashboard() {
 
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                                         <div class="media">
-                                            <img class="d-flex mr-2 rounded-circle" src="assets/images/users/avatar-5.jpg" alt="Generic placeholder image" height="32">
+                                            <img class="d-flex mr-2 rounded-circle" src="assets/images/users/avatar-5.jpg" alt="Generic placeholder image" height="32"/>
                                             <div class="media-body">
                                                 <h5 class="m-0 font-14">Jacob Deo</h5>
                                                 <span class="font-12 mb-0">Developer</span>
@@ -1050,13 +1035,9 @@ export default function Dashboard() {
                                                 <i class="mdi mdi-dots-vertical"></i>
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-right">
-                                                <!-- item-->
                                                 <a href="javascript:void(0);" class="dropdown-item">Sales Report</a>
-                                                <!-- item-->
                                                 <a href="javascript:void(0);" class="dropdown-item">Export Report</a>
-                                                <!-- item-->
                                                 <a href="javascript:void(0);" class="dropdown-item">Profit</a>
-                                                <!-- item-->
                                                 <a href="javascript:void(0);" class="dropdown-item">Action</a>
                                             </div>
                                         </div>
