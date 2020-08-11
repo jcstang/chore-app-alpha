@@ -19,7 +19,7 @@ export default function Layout({
       <header className="main-layout">
         <div className="row">
           <div className="col-10"></div>
-          <div className="col-2 center">
+          <div className="col-2 float-right">
             <FontAwesomeIcon icon={faUser} size="3x" />
           </div>
         </div>
@@ -34,7 +34,8 @@ export default function Layout({
       }
 
       .main-layout {
-        margin-top: 2vh;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
       }
     `}</style>
     </div>
